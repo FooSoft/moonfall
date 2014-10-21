@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<Manifest>
+
+    <Animation alias = "Player.01.Idle.N">
+        <Frame sprite = "Player.01.Idle.N.01" />
+    </Animation>
+    <Animation alias = "Player.01.Idle.E">
+        <Frame sprite = "Player.01.Idle.E.01" />
+    </Animation>
+    <Animation alias = "Player.01.Idle.S">
+        <Frame sprite = "Player.01.Idle.S.01" />
+    </Animation>
+    <Animation alias = "Player.01.Idle.W">
+        <Frame sprite = "Player.01.Idle.W.01" />
+    </Animation>
+    <Animation alias = "Player.01.Walk.N" delay = "0.12">
+        <Frame sprite = "Player.01.Walk.N.01" />
+        <Frame sprite = "Player.01.Walk.N.02" />
+        <Frame sprite = "Player.01.Walk.N.03" />
+        <Frame sprite = "Player.01.Walk.N.04" />
+    </Animation>
+    <Animation alias = "Player.01.Walk.E" delay = "0.12">
+        <Frame sprite = "Player.01.Walk.E.01" />
+        <Frame sprite = "Player.01.Walk.E.02" />
+        <Frame sprite = "Player.01.Walk.E.03" />
+        <Frame sprite = "Player.01.Walk.E.04" />
+    </Animation>
+    <Animation alias = "Player.01.Walk.S" delay = "0.12">
+        <Frame sprite = "Player.01.Walk.S.01" />
+        <Frame sprite = "Player.01.Walk.S.02" />
+        <Frame sprite = "Player.01.Walk.S.03" />
+        <Frame sprite = "Player.01.Walk.S.04" />
+    </Animation>
+    <Animation alias = "Player.01.Walk.W" delay = "0.12">
+        <Frame sprite = "Player.01.Walk.W.01" />
+        <Frame sprite = "Player.01.Walk.W.02" />
+        <Frame sprite = "Player.01.Walk.W.03" />
+        <Frame sprite = "Player.01.Walk.W.04" />
+    </Animation>
+
+
+    <Animation alias = "BunnyGirl.01.Idle.N">
+        <Frame sprite = "BunnyGirl.01.Idle.N.01" />
+    </Animation>
+    <Animation alias = "BunnyGirl.01.Idle.E">
+        <Frame sprite = "BunnyGirl.01.Idle.E.01" />
+    </Animation>
+    <Animation alias = "BunnyGirl.01.Idle.S">
+        <Frame sprite = "BunnyGirl.01.Idle.S.01" />
+    </Animation>
+    <Animation alias = "BunnyGirl.01.Idle.W">
+        <Frame sprite = "BunnyGirl.01.Idle.W.01" />
+    </Animation>
+    <Animation alias = "BunnyGirl.01.Walk.N" delay = "0.12">
+        <Frame sprite = "BunnyGirl.01.Walk.N.01" />
+        <Frame sprite = "BunnyGirl.01.Walk.N.02" />
+        <Frame sprite = "BunnyGirl.01.Walk.N.03" />
+        <Frame sprite = "BunnyGirl.01.Walk.N.04" />
+    </Animation>
+    <Animation alias = "BunnyGirl.01.Walk.E" delay = "0.12">
+        <Frame sprite = "BunnyGirl.01.Walk.E.01" />
+        <Frame sprite = "BunnyGirl.01.Walk.E.02" />
+        <Frame sprite = "BunnyGirl.01.Walk.E.03" />
+        <Frame sprite = "BunnyGirl.01.Walk.E.04" />
+    </Animation>
+    <Animation alias = "BunnyGirl.01.Walk.S" delay = "0.12">
+        <Frame sprite = "BunnyGirl.01.Walk.S.01" />
+        <Frame sprite = "BunnyGirl.01.Walk.S.02" />
+        <Frame sprite = "BunnyGirl.01.Walk.S.03" />
+        <Frame sprite = "BunnyGirl.01.Walk.S.04" />
+    </Animation>
+    <Animation alias = "BunnyGirl.01.Walk.W" delay = "0.12">
+        <Frame sprite = "BunnyGirl.01.Walk.W.01" />
+        <Frame sprite = "BunnyGirl.01.Walk.W.02" />
+        <Frame sprite = "BunnyGirl.01.Walk.W.03" />
+        <Frame sprite = "BunnyGirl.01.Walk.W.04" />
+    </Animation>
+
+
+    <Animation alias = "Bird.01.Idle.N">
+        <Frame sprite = "Bird.01.Idle.N.01" />
+    </Animation>
+    <Animation alias = "Bird.01.Idle.E">
+        <Frame sprite = "Bird.01.Idle.E.01" />
+    </Animation>
+    <Animation alias = "Bird.01.Idle.S">
+        <Frame sprite = "Bird.01.Idle.S.01" />
+    </Animation>
+    <Animation alias = "Bird.01.Idle.W">
+        <Frame sprite = "Bird.01.Idle.W.01" />
+    </Animation>
+    <Animation alias = "Bird.01.Fly.N" delay = "0.12">
+        <Frame sprite = "Bird.01.Fly.N.01" />
+        <Frame sprite = "Bird.01.Fly.N.02" />
+        <Frame sprite = "Bird.01.Fly.N.03" />
+        <Frame sprite = "Bird.01.Fly.N.04" />
+    </Animation>
+    <Animation alias = "Bird.01.Fly.E" delay = "0.12">
+        <Frame sprite = "Bird.01.Fly.E.01" />
+        <Frame sprite = "Bird.01.Fly.E.02" />
+        <Frame sprite = "Bird.01.Fly.E.03" />
+        <Frame sprite = "Bird.01.Fly.E.04" />
+    </Animation>
+    <Animation alias = "Bird.01.Fly.S" delay = "0.12">
+        <Frame sprite = "Bird.01.Fly.S.01" />
+        <Frame sprite = "Bird.01.Fly.S.02" />
+        <Frame sprite = "Bird.01.Fly.S.03" />
+        <Frame sprite = "Bird.01.Fly.S.04" />
+    </Animation>
+    <Animation alias = "Bird.01.Fly.W" delay = "0.12">
+        <Frame sprite = "Bird.01.Fly.W.01" />
+        <Frame sprite = "Bird.01.Fly.W.02" />
+        <Frame sprite = "Bird.01.Fly.W.03" />
+        <Frame sprite = "Bird.01.Fly.W.04" />
+    </Animation>
+
+
+    <Animation alias = "Door.01.Idle">
+        <Frame sprite = "Door.01.Idle.01" />
+    </Animation>
+    <Animation alias = "Door.01.Open" delay = "0.12">
+        <Frame sprite = "Door.01.Open.01" />
+        <Frame sprite = "Door.01.Open.02" />
+        <Frame sprite = "Door.01.Open.03" />
+        <Frame sprite = "Door.01.Open.04" />
+    </Animation>
+    <Animation alias = "Door.01.Close" delay = "0.12">
+        <Frame sprite = "Door.01.Close.01" />
+        <Frame sprite = "Door.01.Close.02" />
+        <Frame sprite = "Door.01.Close.03" />
+        <Frame sprite = "Door.01.Close.04" />
+    </Animation>
+
+
+    <Animation alias = "Door.02.Idle">
+        <Frame sprite = "Door.02.Idle.01" />
+    </Animation>
+    <Animation alias = "Door.02.Open" delay = "0.12">
+        <Frame sprite = "Door.02.Open.01" />
+        <Frame sprite = "Door.02.Open.02" />
+        <Frame sprite = "Door.02.Open.03" />
+        <Frame sprite = "Door.02.Open.04" />
+    </Animation>
+    <Animation alias = "Door.02.Close" delay = "0.12">
+        <Frame sprite = "Door.02.Close.01" />
+        <Frame sprite = "Door.02.Close.02" />
+        <Frame sprite = "Door.02.Close.03" />
+        <Frame sprite = "Door.02.Close.04" />
+    </Animation>
+
+
+    <Animation alias = "Door.03.Idle">
+        <Frame sprite = "Door.03.Idle.01" />
+    </Animation>
+    <Animation alias = "Door.03.Open" delay = "0.12">
+        <Frame sprite = "Door.03.Open.01" />
+        <Frame sprite = "Door.03.Open.02" />
+        <Frame sprite = "Door.03.Open.03" />
+        <Frame sprite = "Door.03.Open.04" />
+    </Animation>
+    <Animation alias = "Door.03.Close" delay = "0.12">
+        <Frame sprite = "Door.03.Close.01" />
+        <Frame sprite = "Door.03.Close.02" />
+        <Frame sprite = "Door.03.Close.03" />
+        <Frame sprite = "Door.03.Close.04" />
+    </Animation>
+
+
+    <Animation alias = "Door.04.Idle">
+        <Frame sprite = "Door.04.Idle.01" />
+    </Animation>
+    <Animation alias = "Door.04.Open" delay = "0.12">
+        <Frame sprite = "Door.04.Open.01" />
+        <Frame sprite = "Door.04.Open.02" />
+        <Frame sprite = "Door.04.Open.03" />
+        <Frame sprite = "Door.04.Open.04" />
+    </Animation>
+    <Animation alias = "Door.04.Close" delay = "0.12">
+        <Frame sprite = "Door.04.Close.01" />
+        <Frame sprite = "Door.04.Close.02" />
+        <Frame sprite = "Door.04.Close.03" />
+        <Frame sprite = "Door.04.Close.04" />
+    </Animation>
+
+
+    <Animation alias = "Door.05.Idle">
+        <Frame sprite = "Door.05.Idle.01" />
+    </Animation>
+    <Animation alias = "Door.05.Open" delay = "0.12">
+        <Frame sprite = "Door.05.Open.01" />
+        <Frame sprite = "Door.05.Open.02" />
+        <Frame sprite = "Door.05.Open.03" />
+        <Frame sprite = "Door.05.Open.04" />
+    </Animation>
+    <Animation alias = "Door.05.Close" delay = "0.12">
+        <Frame sprite = "Door.05.Close.01" />
+        <Frame sprite = "Door.05.Close.02" />
+        <Frame sprite = "Door.05.Close.03" />
+        <Frame sprite = "Door.05.Close.04" />
+    </Animation>
+
+
+    <Animation alias = "Water.01.Joint.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Joint.NE.01.Idle.01" />
+        <Frame sprite = "Water.01.Joint.NE.01.Idle.02" />
+        <Frame sprite = "Water.01.Joint.NE.01.Idle.03" />
+        <Frame sprite = "Water.01.Joint.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Joint.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Joint.NW.01.Idle.01" />
+        <Frame sprite = "Water.01.Joint.NW.01.Idle.02" />
+        <Frame sprite = "Water.01.Joint.NW.01.Idle.03" />
+        <Frame sprite = "Water.01.Joint.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Joint.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Joint.SE.01.Idle.01" />
+        <Frame sprite = "Water.01.Joint.SE.01.Idle.02" />
+        <Frame sprite = "Water.01.Joint.SE.01.Idle.03" />
+        <Frame sprite = "Water.01.Joint.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Joint.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Joint.SW.01.Idle.01" />
+        <Frame sprite = "Water.01.Joint.SW.01.Idle.02" />
+        <Frame sprite = "Water.01.Joint.SW.01.Idle.03" />
+        <Frame sprite = "Water.01.Joint.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.NE.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.NE.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.NE.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.NW.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.NW.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.NW.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.SE.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.SE.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.SE.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.SW.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.SW.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.SW.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.N.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.N.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.N.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.N.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.N.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.W.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.W.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.W.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.W.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.W.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.S.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.S.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.S.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.S.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.S.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Edge.E.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Edge.E.01.Idle.01" />
+        <Frame sprite = "Water.01.Edge.E.01.Idle.02" />
+        <Frame sprite = "Water.01.Edge.E.01.Idle.03" />
+        <Frame sprite = "Water.01.Edge.E.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Generic.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Generic.01.Idle.01" />
+        <Frame sprite = "Water.01.Generic.01.Idle.02" />
+        <Frame sprite = "Water.01.Generic.01.Idle.03" />
+        <Frame sprite = "Water.01.Generic.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.01.Patch.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.01.Patch.01.Idle.01" />
+        <Frame sprite = "Water.01.Patch.01.Idle.02" />
+        <Frame sprite = "Water.01.Patch.01.Idle.03" />
+        <Frame sprite = "Water.01.Patch.01.Idle.04" />
+    </Animation>
+
+
+    <Animation alias = "Water.02.Joint.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Joint.NE.01.Idle.01" />
+        <Frame sprite = "Water.02.Joint.NE.01.Idle.02" />
+        <Frame sprite = "Water.02.Joint.NE.01.Idle.03" />
+        <Frame sprite = "Water.02.Joint.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Joint.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Joint.NW.01.Idle.01" />
+        <Frame sprite = "Water.02.Joint.NW.01.Idle.02" />
+        <Frame sprite = "Water.02.Joint.NW.01.Idle.03" />
+        <Frame sprite = "Water.02.Joint.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Joint.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Joint.SE.01.Idle.01" />
+        <Frame sprite = "Water.02.Joint.SE.01.Idle.02" />
+        <Frame sprite = "Water.02.Joint.SE.01.Idle.03" />
+        <Frame sprite = "Water.02.Joint.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Joint.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Joint.SW.01.Idle.01" />
+        <Frame sprite = "Water.02.Joint.SW.01.Idle.02" />
+        <Frame sprite = "Water.02.Joint.SW.01.Idle.03" />
+        <Frame sprite = "Water.02.Joint.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.NE.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.NE.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.NE.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.NW.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.NW.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.NW.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.SE.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.SE.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.SE.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.SW.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.SW.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.SW.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.N.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.N.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.N.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.N.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.N.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.W.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.W.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.W.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.W.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.W.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.S.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.S.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.S.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.S.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.S.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Edge.E.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Edge.E.01.Idle.01" />
+        <Frame sprite = "Water.02.Edge.E.01.Idle.02" />
+        <Frame sprite = "Water.02.Edge.E.01.Idle.03" />
+        <Frame sprite = "Water.02.Edge.E.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Generic.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Generic.01.Idle.01" />
+        <Frame sprite = "Water.02.Generic.01.Idle.02" />
+        <Frame sprite = "Water.02.Generic.01.Idle.03" />
+        <Frame sprite = "Water.02.Generic.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.02.Patch.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.02.Patch.01.Idle.01" />
+        <Frame sprite = "Water.02.Patch.01.Idle.02" />
+        <Frame sprite = "Water.02.Patch.01.Idle.03" />
+        <Frame sprite = "Water.02.Patch.01.Idle.04" />
+    </Animation>
+
+
+    <Animation alias = "Water.03.Joint.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Joint.NE.01.Idle.01" />
+        <Frame sprite = "Water.03.Joint.NE.01.Idle.02" />
+        <Frame sprite = "Water.03.Joint.NE.01.Idle.03" />
+        <Frame sprite = "Water.03.Joint.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Joint.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Joint.NW.01.Idle.01" />
+        <Frame sprite = "Water.03.Joint.NW.01.Idle.02" />
+        <Frame sprite = "Water.03.Joint.NW.01.Idle.03" />
+        <Frame sprite = "Water.03.Joint.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Joint.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Joint.SE.01.Idle.01" />
+        <Frame sprite = "Water.03.Joint.SE.01.Idle.02" />
+        <Frame sprite = "Water.03.Joint.SE.01.Idle.03" />
+        <Frame sprite = "Water.03.Joint.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Joint.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Joint.SW.01.Idle.01" />
+        <Frame sprite = "Water.03.Joint.SW.01.Idle.02" />
+        <Frame sprite = "Water.03.Joint.SW.01.Idle.03" />
+        <Frame sprite = "Water.03.Joint.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.NE.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.NE.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.NE.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.NW.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.NW.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.NW.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.SE.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.SE.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.SE.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.SW.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.SW.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.SW.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.N.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.N.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.N.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.N.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.N.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.W.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.W.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.W.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.W.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.W.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.S.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.S.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.S.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.S.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.S.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Edge.E.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Edge.E.01.Idle.01" />
+        <Frame sprite = "Water.03.Edge.E.01.Idle.02" />
+        <Frame sprite = "Water.03.Edge.E.01.Idle.03" />
+        <Frame sprite = "Water.03.Edge.E.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Generic.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Generic.01.Idle.01" />
+        <Frame sprite = "Water.03.Generic.01.Idle.02" />
+        <Frame sprite = "Water.03.Generic.01.Idle.03" />
+        <Frame sprite = "Water.03.Generic.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.03.Patch.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.03.Patch.01.Idle.01" />
+        <Frame sprite = "Water.03.Patch.01.Idle.02" />
+        <Frame sprite = "Water.03.Patch.01.Idle.03" />
+        <Frame sprite = "Water.03.Patch.01.Idle.04" />
+    </Animation>
+
+
+    <Animation alias = "Water.04.Joint.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Joint.NE.01.Idle.01" />
+        <Frame sprite = "Water.04.Joint.NE.01.Idle.02" />
+        <Frame sprite = "Water.04.Joint.NE.01.Idle.03" />
+        <Frame sprite = "Water.04.Joint.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Joint.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Joint.NW.01.Idle.01" />
+        <Frame sprite = "Water.04.Joint.NW.01.Idle.02" />
+        <Frame sprite = "Water.04.Joint.NW.01.Idle.03" />
+        <Frame sprite = "Water.04.Joint.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Joint.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Joint.SE.01.Idle.01" />
+        <Frame sprite = "Water.04.Joint.SE.01.Idle.02" />
+        <Frame sprite = "Water.04.Joint.SE.01.Idle.03" />
+        <Frame sprite = "Water.04.Joint.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Joint.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Joint.SW.01.Idle.01" />
+        <Frame sprite = "Water.04.Joint.SW.01.Idle.02" />
+        <Frame sprite = "Water.04.Joint.SW.01.Idle.03" />
+        <Frame sprite = "Water.04.Joint.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.NE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.NE.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.NE.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.NE.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.NE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.NW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.NW.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.NW.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.NW.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.NW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.SE.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.SE.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.SE.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.SE.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.SE.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.SW.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.SW.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.SW.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.SW.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.SW.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.N.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.N.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.N.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.N.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.N.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.W.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.W.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.W.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.W.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.W.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.S.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.S.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.S.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.S.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.S.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Edge.E.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Edge.E.01.Idle.01" />
+        <Frame sprite = "Water.04.Edge.E.01.Idle.02" />
+        <Frame sprite = "Water.04.Edge.E.01.Idle.03" />
+        <Frame sprite = "Water.04.Edge.E.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Generic.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Generic.01.Idle.01" />
+        <Frame sprite = "Water.04.Generic.01.Idle.02" />
+        <Frame sprite = "Water.04.Generic.01.Idle.03" />
+        <Frame sprite = "Water.04.Generic.01.Idle.04" />
+    </Animation>
+    <Animation alias = "Water.04.Patch.01.Idle" delay = "0.48">
+        <Frame sprite = "Water.04.Patch.01.Idle.01" />
+        <Frame sprite = "Water.04.Patch.01.Idle.02" />
+        <Frame sprite = "Water.04.Patch.01.Idle.03" />
+        <Frame sprite = "Water.04.Patch.01.Idle.04" />
+    </Animation>
+
+
+</Manifest>

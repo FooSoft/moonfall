@@ -1,0 +1,1155 @@
+<?xml version="1.0"?>
+<Manifest>
+
+
+    <Actor alias = "Dirt.01.Edge.N.01" layer = "0" thumbnail = "Dirt.01.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Edge.S.01" layer = "0" thumbnail = "Dirt.01.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Edge.E.01" layer = "0" thumbnail = "Dirt.01.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Edge.W.01" layer = "0" thumbnail = "Dirt.01.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Edge.NW.01" layer = "0" thumbnail = "Dirt.01.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Edge.NE.01" layer = "0" thumbnail = "Dirt.01.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Edge.SE.01" layer = "0" thumbnail = "Dirt.01.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Edge.SW.01" layer = "0" thumbnail = "Dirt.01.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Joint.NW.01" layer = "1" thumbnail = "Dirt.01.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Joint.NE.01" layer = "1" thumbnail = "Dirt.01.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Joint.SE.01" layer = "1" thumbnail = "Dirt.01.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Joint.SW.01" layer = "1" thumbnail = "Dirt.01.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Generic.01" layer = "0" thumbnail = "Dirt.01.Generic.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Dirt.01.Patch.01" layer = "0" thumbnail = "Dirt.01.Patch.01">
+        <Properties>
+            <Sprite resource = "Dirt.01.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Beach.01.Edge.N.01" layer = "0" thumbnail = "Beach.01.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Edge.S.01" layer = "0" thumbnail = "Beach.01.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Edge.E.01" layer = "0" thumbnail = "Beach.01.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Edge.W.01" layer = "0" thumbnail = "Beach.01.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Edge.NW.01" layer = "0" thumbnail = "Beach.01.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Edge.NE.01" layer = "0" thumbnail = "Beach.01.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Edge.SE.01" layer = "0" thumbnail = "Beach.01.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Edge.SW.01" layer = "0" thumbnail = "Beach.01.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Joint.NW.01" layer = "1" thumbnail = "Beach.01.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Joint.NE.01" layer = "1" thumbnail = "Beach.01.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Joint.SE.01" layer = "1" thumbnail = "Beach.01.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Joint.SW.01" layer = "1" thumbnail = "Beach.01.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Generic.01" layer = "0" thumbnail = "Beach.01.Generic.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Beach.01.Patch.01" layer = "0" thumbnail = "Beach.01.Patch.01">
+        <Properties>
+            <Sprite resource = "Beach.01.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Carpet.01.Edge.N.01" layer = "0" thumbnail = "Carpet.01.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Edge.S.01" layer = "0" thumbnail = "Carpet.01.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Edge.E.01" layer = "0" thumbnail = "Carpet.01.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Edge.W.01" layer = "0" thumbnail = "Carpet.01.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Edge.NW.01" layer = "0" thumbnail = "Carpet.01.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Edge.NE.01" layer = "0" thumbnail = "Carpet.01.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Edge.SE.01" layer = "0" thumbnail = "Carpet.01.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Edge.SW.01" layer = "0" thumbnail = "Carpet.01.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Joint.NW.01" layer = "1" thumbnail = "Carpet.01.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Joint.NE.01" layer = "1" thumbnail = "Carpet.01.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Joint.SE.01" layer = "1" thumbnail = "Carpet.01.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Joint.SW.01" layer = "1" thumbnail = "Carpet.01.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Generic.01" layer = "0" thumbnail = "Carpet.01.Generic.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.01.Patch.01" layer = "0" thumbnail = "Carpet.01.Patch.01">
+        <Properties>
+            <Sprite resource = "Carpet.01.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Carpet.02.Edge.N.01" layer = "0" thumbnail = "Carpet.02.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Edge.S.01" layer = "0" thumbnail = "Carpet.02.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Edge.E.01" layer = "0" thumbnail = "Carpet.02.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Edge.W.01" layer = "0" thumbnail = "Carpet.02.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Edge.NW.01" layer = "0" thumbnail = "Carpet.02.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Edge.NE.01" layer = "0" thumbnail = "Carpet.02.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Edge.SE.01" layer = "0" thumbnail = "Carpet.02.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Edge.SW.01" layer = "0" thumbnail = "Carpet.02.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Joint.NW.01" layer = "1" thumbnail = "Carpet.02.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Joint.NE.01" layer = "1" thumbnail = "Carpet.02.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Joint.SE.01" layer = "1" thumbnail = "Carpet.02.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Joint.SW.01" layer = "1" thumbnail = "Carpet.02.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Generic.01" layer = "0" thumbnail = "Carpet.02.Generic.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Carpet.02.Patch.01" layer = "0" thumbnail = "Carpet.02.Patch.01">
+        <Properties>
+            <Sprite resource = "Carpet.02.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Grass.01.Edge.N.01" layer = "0" thumbnail = "Grass.01.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Edge.S.01" layer = "0" thumbnail = "Grass.01.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Edge.E.01" layer = "0" thumbnail = "Grass.01.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Edge.W.01" layer = "0" thumbnail = "Grass.01.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Edge.NW.01" layer = "0" thumbnail = "Grass.01.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Edge.NE.01" layer = "0" thumbnail = "Grass.01.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Edge.SE.01" layer = "0" thumbnail = "Grass.01.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Edge.SW.01" layer = "0" thumbnail = "Grass.01.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Joint.NW.01" layer = "1" thumbnail = "Grass.01.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Joint.NE.01" layer = "1" thumbnail = "Grass.01.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Joint.SE.01" layer = "1" thumbnail = "Grass.01.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Joint.SW.01" layer = "1" thumbnail = "Grass.01.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Generic.01" layer = "0" thumbnail = "Grass.01.Generic.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Grass.01.Patch.01" layer = "0" thumbnail = "Grass.01.Patch.01">
+        <Properties>
+            <Sprite resource = "Grass.01.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Mud.01.Edge.N.01" layer = "0" thumbnail = "Mud.01.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Edge.S.01" layer = "0" thumbnail = "Mud.01.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Edge.E.01" layer = "0" thumbnail = "Mud.01.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Edge.W.01" layer = "0" thumbnail = "Mud.01.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Edge.NW.01" layer = "0" thumbnail = "Mud.01.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Edge.NE.01" layer = "0" thumbnail = "Mud.01.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Edge.SE.01" layer = "0" thumbnail = "Mud.01.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Edge.SW.01" layer = "0" thumbnail = "Mud.01.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Joint.NW.01" layer = "1" thumbnail = "Mud.01.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Joint.NE.01" layer = "1" thumbnail = "Mud.01.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Joint.SE.01" layer = "1" thumbnail = "Mud.01.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Joint.SW.01" layer = "1" thumbnail = "Mud.01.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Generic.01" layer = "0" thumbnail = "Mud.01.Generic.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Mud.01.Patch.01" layer = "0" thumbnail = "Mud.01.Patch.01">
+        <Properties>
+            <Sprite resource = "Mud.01.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Road.01.Edge.N.01" layer = "0" thumbnail = "Road.01.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Edge.S.01" layer = "0" thumbnail = "Road.01.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Edge.E.01" layer = "0" thumbnail = "Road.01.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Edge.W.01" layer = "0" thumbnail = "Road.01.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Edge.NW.01" layer = "0" thumbnail = "Road.01.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Edge.NE.01" layer = "0" thumbnail = "Road.01.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Edge.SE.01" layer = "0" thumbnail = "Road.01.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Edge.SW.01" layer = "0" thumbnail = "Road.01.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Road.01.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Joint.NW.01" layer = "1" thumbnail = "Road.01.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Road.01.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Joint.NE.01" layer = "1" thumbnail = "Road.01.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Road.01.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Joint.SE.01" layer = "1" thumbnail = "Road.01.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Road.01.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Joint.SW.01" layer = "1" thumbnail = "Road.01.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Road.01.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Generic.01" layer = "0" thumbnail = "Road.01.Generic.01">
+        <Properties>
+            <Sprite resource = "Road.01.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.01.Patch.01" layer = "0" thumbnail = "Road.01.Patch.01">
+        <Properties>
+            <Sprite resource = "Road.01.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Road.02.Edge.N.01" layer = "0" thumbnail = "Road.02.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Edge.S.01" layer = "0" thumbnail = "Road.02.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Edge.E.01" layer = "0" thumbnail = "Road.02.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Edge.W.01" layer = "0" thumbnail = "Road.02.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Edge.NW.01" layer = "0" thumbnail = "Road.02.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Edge.NE.01" layer = "0" thumbnail = "Road.02.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Edge.SE.01" layer = "0" thumbnail = "Road.02.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Edge.SW.01" layer = "0" thumbnail = "Road.02.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Road.02.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Joint.NW.01" layer = "1" thumbnail = "Road.02.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Road.02.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Joint.NE.01" layer = "1" thumbnail = "Road.02.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Road.02.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Joint.SE.01" layer = "1" thumbnail = "Road.02.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Road.02.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Joint.SW.01" layer = "1" thumbnail = "Road.02.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Road.02.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Generic.01" layer = "0" thumbnail = "Road.02.Generic.01">
+        <Properties>
+            <Sprite resource = "Road.02.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Road.02.Patch.01" layer = "0" thumbnail = "Road.02.Patch.01">
+        <Properties>
+            <Sprite resource = "Road.02.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Roof.01.Edge.N.01" layer = "0" thumbnail = "Roof.01.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Edge.S.01" layer = "0" thumbnail = "Roof.01.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Edge.E.01" layer = "0" thumbnail = "Roof.01.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Edge.W.01" layer = "0" thumbnail = "Roof.01.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Edge.NW.01" layer = "0" thumbnail = "Roof.01.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Edge.NE.01" layer = "0" thumbnail = "Roof.01.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Edge.SE.01" layer = "0" thumbnail = "Roof.01.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Edge.SW.01" layer = "0" thumbnail = "Roof.01.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Joint.NW.01" layer = "1" thumbnail = "Roof.01.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Joint.NE.01" layer = "1" thumbnail = "Roof.01.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Joint.SE.01" layer = "1" thumbnail = "Roof.01.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Joint.SW.01" layer = "1" thumbnail = "Roof.01.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Generic.01" layer = "0" thumbnail = "Roof.01.Generic.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.01.Patch.01" layer = "0" thumbnail = "Roof.01.Patch.01">
+        <Properties>
+            <Sprite resource = "Roof.01.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Roof.02.Edge.N.01" layer = "0" thumbnail = "Roof.02.Edge.N.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.N.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Edge.S.01" layer = "0" thumbnail = "Roof.02.Edge.S.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.S.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Edge.E.01" layer = "0" thumbnail = "Roof.02.Edge.E.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.E.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Edge.W.01" layer = "0" thumbnail = "Roof.02.Edge.W.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.W.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Edge.NW.01" layer = "0" thumbnail = "Roof.02.Edge.NW.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Edge.NE.01" layer = "0" thumbnail = "Roof.02.Edge.NE.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Edge.SE.01" layer = "0" thumbnail = "Roof.02.Edge.SE.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Edge.SW.01" layer = "0" thumbnail = "Roof.02.Edge.SW.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Edge.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Joint.NW.01" layer = "1" thumbnail = "Roof.02.Joint.NW.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Joint.NW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Joint.NE.01" layer = "1" thumbnail = "Roof.02.Joint.NE.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Joint.NE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Joint.SE.01" layer = "1" thumbnail = "Roof.02.Joint.SE.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Joint.SE.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Joint.SW.01" layer = "1" thumbnail = "Roof.02.Joint.SW.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Joint.SW.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Generic.01" layer = "0" thumbnail = "Roof.02.Generic.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Generic.01" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Roof.02.Patch.01" layer = "0" thumbnail = "Roof.02.Patch.01">
+        <Properties>
+            <Sprite resource = "Roof.02.Patch.01" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Water.01.Edge.N.01" layer = "0" thumbnail = "Water.01.Edge.N.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.N.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Edge.S.01" layer = "0" thumbnail = "Water.01.Edge.S.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.S.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Edge.E.01" layer = "0" thumbnail = "Water.01.Edge.E.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.E.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Edge.W.01" layer = "0" thumbnail = "Water.01.Edge.W.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.W.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Edge.NW.01" layer = "0" thumbnail = "Water.01.Edge.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Edge.NE.01" layer = "0" thumbnail = "Water.01.Edge.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Edge.SE.01" layer = "0" thumbnail = "Water.01.Edge.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Edge.SW.01" layer = "0" thumbnail = "Water.01.Edge.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Edge.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Joint.NW.01" layer = "1" thumbnail = "Water.01.Joint.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Joint.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Joint.NE.01" layer = "1" thumbnail = "Water.01.Joint.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Joint.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Joint.SE.01" layer = "1" thumbnail = "Water.01.Joint.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Joint.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Joint.SW.01" layer = "1" thumbnail = "Water.01.Joint.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Joint.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Generic.01" layer = "0" thumbnail = "Water.01.Generic.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Generic.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.01.Patch.01" layer = "0" thumbnail = "Water.01.Patch.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.01.Patch.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Water.02.Edge.N.01" layer = "0" thumbnail = "Water.02.Edge.N.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.N.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Edge.S.01" layer = "0" thumbnail = "Water.02.Edge.S.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.S.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Edge.E.01" layer = "0" thumbnail = "Water.02.Edge.E.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.E.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Edge.W.01" layer = "0" thumbnail = "Water.02.Edge.W.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.W.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Edge.NW.01" layer = "0" thumbnail = "Water.02.Edge.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Edge.NE.01" layer = "0" thumbnail = "Water.02.Edge.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Edge.SE.01" layer = "0" thumbnail = "Water.02.Edge.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Edge.SW.01" layer = "0" thumbnail = "Water.02.Edge.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Edge.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Joint.NW.01" layer = "1" thumbnail = "Water.02.Joint.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Joint.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Joint.NE.01" layer = "1" thumbnail = "Water.02.Joint.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Joint.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Joint.SE.01" layer = "1" thumbnail = "Water.02.Joint.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Joint.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Joint.SW.01" layer = "1" thumbnail = "Water.02.Joint.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Joint.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Generic.01" layer = "0" thumbnail = "Water.02.Generic.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Generic.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.02.Patch.01" layer = "0" thumbnail = "Water.02.Patch.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.02.Patch.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Water.03.Edge.N.01" layer = "0" thumbnail = "Water.03.Edge.N.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.N.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Edge.S.01" layer = "0" thumbnail = "Water.03.Edge.S.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.S.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Edge.E.01" layer = "0" thumbnail = "Water.03.Edge.E.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.E.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Edge.W.01" layer = "0" thumbnail = "Water.03.Edge.W.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.W.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Edge.NW.01" layer = "0" thumbnail = "Water.03.Edge.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Edge.NE.01" layer = "0" thumbnail = "Water.03.Edge.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Edge.SE.01" layer = "0" thumbnail = "Water.03.Edge.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Edge.SW.01" layer = "0" thumbnail = "Water.03.Edge.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Edge.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Joint.NW.01" layer = "1" thumbnail = "Water.03.Joint.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Joint.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Joint.NE.01" layer = "1" thumbnail = "Water.03.Joint.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Joint.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Joint.SE.01" layer = "1" thumbnail = "Water.03.Joint.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Joint.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Joint.SW.01" layer = "1" thumbnail = "Water.03.Joint.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Joint.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Generic.01" layer = "0" thumbnail = "Water.03.Generic.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Generic.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.03.Patch.01" layer = "0" thumbnail = "Water.03.Patch.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.03.Patch.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Water.04.Edge.N.01" layer = "0" thumbnail = "Water.04.Edge.N.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.N.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Edge.S.01" layer = "0" thumbnail = "Water.04.Edge.S.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.S.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Edge.E.01" layer = "0" thumbnail = "Water.04.Edge.E.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.E.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Edge.W.01" layer = "0" thumbnail = "Water.04.Edge.W.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.W.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Edge.NW.01" layer = "0" thumbnail = "Water.04.Edge.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Edge.NE.01" layer = "0" thumbnail = "Water.04.Edge.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Edge.SE.01" layer = "0" thumbnail = "Water.04.Edge.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Edge.SW.01" layer = "0" thumbnail = "Water.04.Edge.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Edge.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Joint.NW.01" layer = "1" thumbnail = "Water.04.Joint.NW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Joint.NW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Joint.NE.01" layer = "1" thumbnail = "Water.04.Joint.NE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Joint.NE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Joint.SE.01" layer = "1" thumbnail = "Water.04.Joint.SE.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Joint.SE.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Joint.SW.01" layer = "1" thumbnail = "Water.04.Joint.SW.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Joint.SW.01.Idle" play = "1" loop = "1" />
+            <Physics />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Generic.01" layer = "0" thumbnail = "Water.04.Generic.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Generic.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+    <Actor alias = "Water.04.Patch.01" layer = "0" thumbnail = "Water.04.Patch.01.Idle.01">
+        <Properties>
+            <Animation resource = "Water.04.Patch.01.Idle" play = "1" loop = "1" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Player.01" dynamic = "1" layer = "4" thumbnail = "Player.01.Idle.S.01">
+        <Properties>
+            <Animation />
+            <Script resource = "Player.01.Default" />
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "BunnyGirl.01" dynamic = "1" layer = "4" thumbnail = "BunnyGirl.01.Idle.S.01">
+        <Properties>
+            <Animation />
+            <Script resource = "Npc.Default"/>
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Bird.01" dynamic = "1" layer = "7" thumbnail = "Bird.01.Fly.W.01">
+        <Properties>
+            <Animation />
+ 	    	<Script resource = "Bird.01.Default"/>
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Door.01" layer = "3" thumbnail = "Door.01.Idle.01">
+        <Properties>
+            <Animation play = "1" loop = "1" resource = "Door.01.Idle" />
+            <Script resource = "Door.Default" />
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Door.02" layer = "3" thumbnail = "Door.02.Idle.01">
+        <Properties>
+            <Animation play = "1" loop = "1" resource = "Door.02.Idle" />
+            <Script resource = "Door.Default" />
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Door.03" layer = "3" thumbnail = "Door.03.Idle.01">
+        <Properties>
+            <Animation play = "1" loop = "1" resource = "Door.03.Idle" />
+            <Script resource = "Door.Default" />
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Door.04" layer = "3" thumbnail = "Door.04.Idle.01">
+        <Properties>
+            <Animation play = "1" loop = "1" resource = "Door.04.Idle" />
+            <Script resource = "Door.Default" />
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Door.05" layer = "3" thumbnail = "Door.05.Idle.01">
+        <Properties>
+            <Animation play = "1" loop = "1" resource = "Door.05.Idle" />
+            <Script resource = "Door.Default" />
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Player.Trigger" layer = "3">
+        <Properties>
+            <Script resource = "Player.Trigger" />
+            <Physics />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Player.Spawn" layer = "3">
+        <Properties>
+            <Script resource = "Player.Spawn" />
+        </Properties>
+    </Actor>
+
+
+    <Actor alias = "Bird.Spawn" layer = "3">
+        <Properties>
+            <Script resource = "Bird.Spawn" />
+        </Properties>
+    </Actor>
+
+
+</Manifest>

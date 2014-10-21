@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/moonfall/!svn/ver/517/Assets/Scripts
+END
+PlayerTrigger.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/moonfall/!svn/ver/476/Assets/Scripts/PlayerTrigger.lua
+END
+PlayerDefault.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/moonfall/!svn/ver/458/Assets/Scripts/PlayerDefault.lua
+END
+BirdDefault.lua
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/moonfall/!svn/ver/480/Assets/Scripts/BirdDefault.lua
+END
+NpcDefault.lua
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/moonfall/!svn/ver/455/Assets/Scripts/NpcDefault.lua
+END
+PlayerSpawn.lua
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/moonfall/!svn/ver/517/Assets/Scripts/PlayerSpawn.lua
+END
+DoorDefault.lua
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/moonfall/!svn/ver/445/Assets/Scripts/DoorDefault.lua
+END
+BirdSpawn.lua
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/moonfall/!svn/ver/473/Assets/Scripts/BirdSpawn.lua
+END
+WorldDefault.lua
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/moonfall/!svn/ver/458/Assets/Scripts/WorldDefault.lua
+END

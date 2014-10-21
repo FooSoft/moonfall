@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Moonfall" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Frontend/;Utility/;Utility/TinyXml/;Engine/;Game/;Game/World/;Game/Gui/;Game/Lua/;" />
+		<Build>
+			<Target title="LinuxDbgDev">
+				<Option output="bin/LinuxDbgDev/Moonfall" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -j 2 -f $makefile CFG=LINUX_DBG_DEV" />
+					<CompileFile command="$make - j 2 -f $makefile $file CFG=LINUX_DBG_DEV" />
+					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_DBG_DEV" />
+					<DistClean command="$make -j 2 -f $makefile distclean" />
+				</MakeCommands>
+			</Target>
+			<Target title="LinuxRelDev">
+				<Option output="bin/LinuxRelDev/Moonfall" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -j 2  -f $makefile CFG=LINUX_REL_DEV" />
+					<CompileFile command="$make -j 2 -f $makefile $file CFG=LINUX_REL_DEV" />
+					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_REL_DEV" />
+					<DistClean command="$make -j 2 -f $makefile distclean" />
+				</MakeCommands>
+			</Target>
+			<Target title="LinuxDbg">
+				<Option output="bin/LinuxDbg/Moonfall" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -j 2 -f $makefile CFG=LINUX_DBG" />
+					<CompileFile command="$make -j 2 -f $makefile $file CFG=LINUX_DBG" />
+					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_DBG" />
+					<DistClean command="$make -j 2 -f $makefile distclean" />
+				</MakeCommands>
+			</Target>
+			<Target title="LinuxRel">
+				<Option output="bin/LinuxRel/Moonfall" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -j 2 -f $makefile CFG=LINUX_REL" />
+					<CompileFile command="$make -j 2 -f $makefile $file CFG=LINUX_REL" />
+					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_REL" />
+					<DistClean command="$make -j 2 -f $makefile distclean" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="LinuxAll" targets="LinuxDbgDev;LinuxRelDev;LinuxDbg;LinuxRel;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`wx-config --cflags`" />
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-I/usr/include/lua5.1" />
+			<Add option="-fno-strict-aliasing" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+			<Add option="`sdl-config --libs`" />
+			<Add option="-llua5.1" />
+			<Add option="-lSDL_image" />
+		</Linker>
+		<Unit filename="Actor.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="Actor.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorManager.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorManager.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorManifest.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorManifest.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorProperty.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorProperty.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertyAnimation.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertyAnimation.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertyPhysics.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertyPhysics.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertyScript.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertyScript.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertySprite.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorPropertySprite.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="ActorScript.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="ActorScript.h">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="Animation.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Animation.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="AnimationManifest.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="AnimationManifest.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="AppMoonfall.cpp">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="AppMoonfall.h">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="AppMoonfallDev.cpp">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="Assert.cpp">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Assert.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Buffer.cpp">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Buffer.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Camera.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="Camera.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="CameraTarget.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="CameraTarget.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="Color.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Compression.cpp">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Compression.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Define.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="DialogAssetPackager.cpp">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="DialogAssetPackager.h">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="DialogueManifest.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="DialogueManifest.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Driver.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Driver.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="EngineCommon.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Environment.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="EventManager.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="EventManager.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="FileManifest.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="FileManifest.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Font.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Font.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="FontManifest.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="FontManifest.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="FrameConsole.cpp">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="FrameConsole.h">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="FrameMapEditor.cpp">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="FrameMapEditor.h">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="FrameSpriteEditor.cpp">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="FrameSpriteEditor.h">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="GameCommon.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="Grid.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Grid.inl">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="HeapTracker.cpp">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="HeapTracker.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="ICameraTarget.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="IEventHandler.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="IWorldContext.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="InputManager.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="InputManager.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="LuaBinding.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBinding.h">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBinding.inl">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingActor.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingActorAnimation.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingActorPhysics.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingActorScript.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingActorSprite.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingCamera.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingExport.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingInput.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingUtil.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="LuaBindingWorld.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="Map.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="Map.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="Monostate.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Monostate.inl">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Pch.h">
+			<Option compile="1" />
+			<Option weight="0" />
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Rect.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Rect.inl">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="RefCount.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="RefCount.inl">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Script.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Script.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="ScriptManifest.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="ScriptManifest.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="ScriptManifest.inl">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Serialization.cpp">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Serialization.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Serialization.inl">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Sprite.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Sprite.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="SpriteManifest.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="SpriteManifest.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Surface.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Surface.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="SurfaceManager.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="SurfaceManager.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="System.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="System.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Token.cpp">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Token.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Trace.cpp">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Trace.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Vector.h">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Vector.inl">
+			<Option virtualFolder="Utility/" />
+		</Unit>
+		<Unit filename="Window.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="Window.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="WindowDialogue.cpp">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowDialogue.h">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowDialoguePanel.cpp">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowDialoguePanel.h">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowMain.cpp">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowMain.h">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowManager.cpp">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="WindowManager.h">
+			<Option virtualFolder="Engine/" />
+		</Unit>
+		<Unit filename="WindowText.cpp">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowText.h">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowWorld.cpp">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="WindowWorld.h">
+			<Option virtualFolder="Game/Gui/" />
+		</Unit>
+		<Unit filename="World.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="World.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="WorldManifest.cpp">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="WorldManifest.h">
+			<Option virtualFolder="Game/World/" />
+		</Unit>
+		<Unit filename="WorldScript.cpp">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="WorldScript.h">
+			<Option virtualFolder="Game/Lua/" />
+		</Unit>
+		<Unit filename="XrcResource.cpp">
+			<Option virtualFolder="Frontend/" />
+		</Unit>
+		<Unit filename="tinystr.cpp">
+			<Option virtualFolder="Utility/TinyXml/" />
+		</Unit>
+		<Unit filename="tinystr.h">
+			<Option virtualFolder="Utility/TinyXml/" />
+		</Unit>
+		<Unit filename="tinyxml.cpp">
+			<Option virtualFolder="Utility/TinyXml/" />
+		</Unit>
+		<Unit filename="tinyxml.h">
+			<Option virtualFolder="Utility/TinyXml/" />
+		</Unit>
+		<Unit filename="tinyxmlerror.cpp">
+			<Option virtualFolder="Utility/TinyXml/" />
+		</Unit>
+		<Unit filename="tinyxmlparser.cpp">
+			<Option virtualFolder="Utility/TinyXml/" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

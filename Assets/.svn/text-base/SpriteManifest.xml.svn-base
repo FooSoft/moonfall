@@ -1,0 +1,1008 @@
+<Manifest>
+    <Sprite alias="Beach.01.Edge.E.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Beach.01.Edge.N.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Beach.01.Edge.NE.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Beach.01.Edge.NW.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Beach.01.Edge.S.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Beach.01.Edge.SE.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Beach.01.Edge.SW.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Beach.01.Edge.W.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Beach.01.Generic.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Beach.01.Joint.NE.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Beach.01.Joint.NW.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Beach.01.Joint.SE.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Beach.01.Joint.SW.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Beach.01.Patch.01" asset="Assets/Graphics/World/Outdoor/Beach01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.E.01" asset="Assets/Graphics/Characters/165-Small07.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.E.02" asset="Assets/Graphics/Characters/165-Small07.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.E.03" asset="Assets/Graphics/Characters/165-Small07.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.E.04" asset="Assets/Graphics/Characters/165-Small07.png" x="96" y="64" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.N.01" asset="Assets/Graphics/Characters/165-Small07.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.N.02" asset="Assets/Graphics/Characters/165-Small07.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.N.03" asset="Assets/Graphics/Characters/165-Small07.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.N.04" asset="Assets/Graphics/Characters/165-Small07.png" x="96" y="96" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.S.01" asset="Assets/Graphics/Characters/165-Small07.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.S.02" asset="Assets/Graphics/Characters/165-Small07.png" x="32" y="0" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.S.03" asset="Assets/Graphics/Characters/165-Small07.png" x="64" y="0" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.S.04" asset="Assets/Graphics/Characters/165-Small07.png" x="96" y="0" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.W.01" asset="Assets/Graphics/Characters/165-Small07.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.W.02" asset="Assets/Graphics/Characters/165-Small07.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.W.03" asset="Assets/Graphics/Characters/165-Small07.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Bird.01.Fly.W.04" asset="Assets/Graphics/Characters/165-Small07.png" x="96" y="32" width="32" height="32" />
+    <Sprite alias="BunnyGirl.01.Idle.E.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Idle.N.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Idle.S.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Idle.W.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.E.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="32" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.E.02" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="64" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.E.03" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="96" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.E.04" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.N.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="32" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.N.02" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="64" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.N.03" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="96" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.N.04" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.S.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="32" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.S.02" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="64" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.S.03" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="96" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.S.04" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.W.01" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="32" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.W.02" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="64" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.W.03" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="96" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="BunnyGirl.01.Walk.W.04" asset="Assets/Graphics/Characters/137-BunnyGirl01.png" x="0" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="Bush.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="288" width="64" height="64" />
+    <Sprite alias="Bush.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="0" y="608" width="64" height="64" />
+    <Sprite alias="Bush.03" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="576" width="32" height="32" />
+    <Sprite alias="Campfire.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="32" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.E.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.N.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.NE.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.NW.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.S.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.SE.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.SW.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Carpet.01.Edge.W.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Carpet.01.Generic.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Carpet.01.Joint.NE.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Carpet.01.Joint.NW.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Carpet.01.Joint.SE.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Carpet.01.Joint.SW.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Carpet.01.Patch.01" asset="Assets/Graphics/World/Indoor/Carpet01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.E.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.N.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.NE.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.NW.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.S.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.SE.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.SW.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Carpet.02.Edge.W.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Carpet.02.Generic.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Carpet.02.Joint.NE.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Carpet.02.Joint.NW.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Carpet.02.Joint.SE.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Carpet.02.Joint.SW.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Carpet.02.Patch.01" asset="Assets/Graphics/World/Indoor/Carpet02.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Dirt.01.Detail.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Detail.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Detail.03" asset="Assets/Graphics/World/Outdoor/Nature.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Detail.04" asset="Assets/Graphics/World/Outdoor/Nature.png" x="96" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Detail.05" asset="Assets/Graphics/World/Outdoor/Nature.png" x="128" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Detail.06" asset="Assets/Graphics/World/Outdoor/Nature.png" x="160" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.E.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.N.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.NE.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.NW.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.S.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.SE.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.SW.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Dirt.01.Edge.W.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Dirt.01.Generic.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Dirt.01.Joint.NE.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Dirt.01.Joint.NW.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Dirt.01.Joint.SE.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Dirt.01.Joint.SW.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Dirt.01.Patch.01" asset="Assets/Graphics/World/Outdoor/Dirt01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Door.01.Close.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Close.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Close.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Close.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Open.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Open.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Open.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.01.Open.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="0" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Close.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Close.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Close.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Close.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Idle.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Open.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Open.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Open.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.02.Open.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="32" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Close.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Close.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Close.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Close.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Idle.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Open.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Open.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Open.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.03.Open.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="64" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Close.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Close.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Close.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Close.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Idle.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Open.01" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Open.02" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Open.03" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.04.Open.04" asset="Assets/Graphics/World/Outdoor/Doors01.png" x="96" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Close.01" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Close.02" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Close.03" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Close.04" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Idle.01" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Open.01" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="0" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Open.02" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="64" width="32" height="64">
+        <Shape type="0" data="2" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Open.03" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="128" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Door.05.Open.04" asset="Assets/Graphics/World/Outdoor/Doors02.png" x="0" y="192" width="32" height="64">
+        <Shape type="1" data="1" width="32" height="32" x="0" y="32" />
+    </Sprite>
+    <Sprite alias="Face.Test.01" asset="Assets/Graphics/Gui/Faces01.png" x="0" y="0" width="48" height="48" />
+    <Sprite alias="Flowers.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="128" width="32" height="32" />
+    <Sprite alias="Flowers.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="128" width="32" height="32" />
+    <Sprite alias="Flowers.03" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="160" width="32" height="32" />
+    <Sprite alias="Flowers.04" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="160" width="32" height="32" />
+    <Sprite alias="Flowers.05" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="192" width="32" height="32" />
+    <Sprite alias="Flowers.06" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="192" width="32" height="32" />
+    <Sprite alias="Flowers.07" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="224" width="32" height="32" />
+    <Sprite alias="Flowers.08" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="224" width="32" height="32" />
+    <Sprite alias="Flowers.09" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="256" width="32" height="32" />
+    <Sprite alias="Flowers.10" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="256" width="32" height="32" />
+    <Sprite alias="Flowers.11" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="384" width="32" height="32" />
+    <Sprite alias="Flowers.12" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="384" width="32" height="32" />
+    <Sprite alias="Flowers.13" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="416" width="32" height="32" />
+    <Sprite alias="Flowers.14" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="416" width="32" height="32" />
+    <Sprite alias="Flowers.15" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="448" width="32" height="32" />
+    <Sprite alias="Flowers.16" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="448" width="32" height="32" />
+    <Sprite alias="Flowers.17" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="480" width="32" height="32" />
+    <Sprite alias="Flowers.18" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="480" width="32" height="32" />
+    <Sprite alias="Flowers.19" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="512" width="32" height="32" />
+    <Sprite alias="Flowers.20" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="512" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.E.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.N.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.NE.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.NW.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.S.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.SE.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.SW.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Grass.01.Edge.W.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Grass.01.Generic.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Grass.01.Joint.NE.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Grass.01.Joint.NW.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Grass.01.Joint.SE.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Grass.01.Joint.SW.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Grass.01.Patch.01" asset="Assets/Graphics/World/Outdoor/Grass01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Grass.02.Detail.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="96" y="0" width="32" height="32" />
+    <Sprite alias="Grass.02.Detail.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="128" y="0" width="32" height="32" />
+    <Sprite alias="Grass.02.Detail.03" asset="Assets/Graphics/World/Outdoor/Nature.png" x="160" y="0" width="32" height="32" />
+    <Sprite alias="Grass.02.Detail.04" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="0" width="32" height="32" />
+    <Sprite alias="Grass.02.Generic.01" asset="Assets/Graphics/World/Outdoor/Generic.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Lilies.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Lilies.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Lilies.03" asset="Assets/Graphics/World/Outdoor/Nature.png" x="96" y="96" width="32" height="32" />
+    <Sprite alias="Lilies.04" asset="Assets/Graphics/World/Outdoor/Nature.png" x="128" y="96" width="32" height="32" />
+    <Sprite alias="Lilies.05" asset="Assets/Graphics/World/Outdoor/Nature.png" x="0" y="128" width="32" height="32" />
+    <Sprite alias="Lilies.06" asset="Assets/Graphics/World/Outdoor/Nature.png" x="32" y="128" width="32" height="32" />
+    <Sprite alias="Lilies.07" asset="Assets/Graphics/World/Outdoor/Nature.png" x="64" y="128" width="32" height="32" />
+    <Sprite alias="Lilies.08" asset="Assets/Graphics/World/Outdoor/Nature.png" x="96" y="128" width="32" height="32" />
+    <Sprite alias="Lilies.09" asset="Assets/Graphics/World/Outdoor/Nature.png" x="128" y="128" width="32" height="32" />
+    <Sprite alias="Lilies.10" asset="Assets/Graphics/World/Outdoor/Nature.png" x="160" y="128" width="32" height="32" />
+    <Sprite alias="Lilies.11" asset="Assets/Graphics/World/Outdoor/Nature.png" x="0" y="160" width="32" height="32" />
+    <Sprite alias="Lilies.12" asset="Assets/Graphics/World/Outdoor/Nature.png" x="32" y="160" width="32" height="32" />
+    <Sprite alias="Lilies.13" asset="Assets/Graphics/World/Outdoor/Nature.png" x="64" y="160" width="32" height="32" />
+    <Sprite alias="Lilies.14" asset="Assets/Graphics/World/Outdoor/Nature.png" x="96" y="160" width="32" height="32" />
+    <Sprite alias="Lilies.15" asset="Assets/Graphics/World/Outdoor/Nature.png" x="128" y="160" width="32" height="32" />
+    <Sprite alias="Lilies.16" asset="Assets/Graphics/World/Outdoor/Nature.png" x="160" y="160" width="32" height="32" />
+    <Sprite alias="Mud.01.Detail.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Detail.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Detail.03" asset="Assets/Graphics/World/Outdoor/Nature.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Detail.04" asset="Assets/Graphics/World/Outdoor/Nature.png" x="96" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Detail.05" asset="Assets/Graphics/World/Outdoor/Nature.png" x="128" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Detail.06" asset="Assets/Graphics/World/Outdoor/Nature.png" x="160" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Detail.07" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.E.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.N.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.NE.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.NW.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.S.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.SE.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.SW.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Mud.01.Edge.W.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Generic.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Mud.01.Joint.NE.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Mud.01.Joint.NW.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Mud.01.Joint.SE.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Mud.01.Joint.SW.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Mud.01.Patch.01" asset="Assets/Graphics/World/Outdoor/Mud01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Mushrooms.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="896" width="32" height="32" />
+    <Sprite alias="Mushrooms.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="896" width="32" height="32" />
+    <Sprite alias="Mushrooms.03" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="928" width="32" height="32" />
+    <Sprite alias="Mushrooms.04" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="928" width="32" height="32" />
+    <Sprite alias="Mushrooms.05" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="960" width="32" height="32" />
+    <Sprite alias="Mushrooms.06" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="960" width="32" height="32" />
+    <Sprite alias="Mushrooms.07" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="992" width="32" height="32" />
+    <Sprite alias="Mushrooms.08" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="992" width="32" height="32" />
+    <Sprite alias="Mushrooms.09" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="1024" width="32" height="32" />
+    <Sprite alias="Mushrooms.10" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="1024" width="32" height="32" />
+    <Sprite alias="Mushrooms.11" asset="Assets/Graphics/World/Outdoor/Nature.png" x="128" y="1056" width="32" height="32" />
+    <Sprite alias="Mushrooms.12" asset="Assets/Graphics/World/Outdoor/Nature.png" x="160" y="1056" width="32" height="32" />
+    <Sprite alias="Mushrooms.13" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="1056" width="32" height="32" />
+    <Sprite alias="Mushrooms.14" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="1056" width="32" height="32" />
+    <Sprite alias="Player.01.Idle.E.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Idle.N.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="Player.01.Idle.S.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Idle.W.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.E.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="32" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.E.02" asset="Assets/Graphics/Characters/001-Fighter01.png" x="64" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.E.03" asset="Assets/Graphics/Characters/001-Fighter01.png" x="96" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.E.04" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="96" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.N.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="32" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.N.02" asset="Assets/Graphics/Characters/001-Fighter01.png" x="64" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.N.03" asset="Assets/Graphics/Characters/001-Fighter01.png" x="96" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.N.04" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="144" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="16" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.S.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="32" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.S.02" asset="Assets/Graphics/Characters/001-Fighter01.png" x="64" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.S.03" asset="Assets/Graphics/Characters/001-Fighter01.png" x="96" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.S.04" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="0" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="16" height="32" x="8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.W.01" asset="Assets/Graphics/Characters/001-Fighter01.png" x="32" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.W.02" asset="Assets/Graphics/Characters/001-Fighter01.png" x="64" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.W.03" asset="Assets/Graphics/Characters/001-Fighter01.png" x="96" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="Player.01.Walk.W.04" asset="Assets/Graphics/Characters/001-Fighter01.png" x="0" y="48" width="32" height="48">
+        <Shape type="0" data="1" width="16" height="16" x="8" y="32" />
+        <Shape type="1" data="2" width="32" height="16" x="-8" y="32" />
+    </Sprite>
+    <Sprite alias="Road.01.Edge.E.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Road.01.Edge.N.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Road.01.Edge.NE.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Road.01.Edge.NW.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Road.01.Edge.S.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Road.01.Edge.SE.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Road.01.Edge.SW.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Road.01.Edge.W.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Road.01.Generic.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Road.01.Joint.NE.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Road.01.Joint.NW.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Road.01.Joint.SE.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Road.01.Joint.SW.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Road.01.Patch.01" asset="Assets/Graphics/World/Outdoor/Road01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.E.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.N.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.NE.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.NW.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.S.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.SE.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.SW.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Road.02.Edge.W.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Road.02.Generic.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Road.02.Joint.NE.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Road.02.Joint.NW.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Road.02.Joint.SE.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Road.02.Joint.SW.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Road.02.Patch.01" asset="Assets/Graphics/World/Outdoor/Road02.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.E.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.N.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.NE.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.NW.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.S.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.SE.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.SW.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Roof.01.Edge.W.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Roof.01.Generic.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Roof.01.Joint.NE.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Roof.01.Joint.NW.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Roof.01.Joint.SE.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Roof.01.Joint.SW.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Roof.01.Patch.01" asset="Assets/Graphics/World/Indoor/Roof01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.E.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="64" y="64" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.N.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="32" y="32" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.NE.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="64" y="32" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.NW.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="0" y="32" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.S.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="32" y="96" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.SE.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="64" y="96" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.SW.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="0" y="96" width="32" height="32" />
+    <Sprite alias="Roof.02.Edge.W.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="0" y="64" width="32" height="32" />
+    <Sprite alias="Roof.02.Generic.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Roof.02.Joint.NE.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Roof.02.Joint.NW.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Roof.02.Joint.SE.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Roof.02.Joint.SW.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Roof.02.Patch.01" asset="Assets/Graphics/World/Indoor/Roof02.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Target.01" asset="Assets/Graphics/World/Outdoor/Nature.png" x="192" y="96" width="32" height="32" />
+    <Sprite alias="Target.02" asset="Assets/Graphics/World/Outdoor/Nature.png" x="224" y="96" width="32" height="32" />
+    <Sprite alias="Water.01.Edge.E.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="64" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.E.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="160" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.E.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="256" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.E.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="352" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.N.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="32" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.N.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="128" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.N.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="224" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.N.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="320" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="64" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="160" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="256" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="352" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="0" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="96" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="192" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="288" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.S.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="32" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.S.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="128" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.S.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="224" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.S.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="320" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="64" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="160" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="256" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="352" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="0" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="96" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="192" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="288" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.W.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="0" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.W.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="96" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.W.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="192" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Edge.W.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="288" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.01.Generic.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Water.01.Generic.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="128" y="64" width="32" height="32" />
+    <Sprite alias="Water.01.Generic.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="224" y="64" width="32" height="32" />
+    <Sprite alias="Water.01.Generic.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="320" y="64" width="32" height="32" />
+    <Sprite alias="Water.01.Joint.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="176" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="272" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="368" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="160" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="256" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="352" y="0" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="176" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="272" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="368" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="160" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="256" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Joint.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="352" y="16" width="16" height="16" />
+    <Sprite alias="Water.01.Patch.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water01.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Water.01.Patch.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water01.png" x="96" y="0" width="32" height="32" />
+    <Sprite alias="Water.01.Patch.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water01.png" x="192" y="0" width="32" height="32" />
+    <Sprite alias="Water.01.Patch.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water01.png" x="288" y="0" width="32" height="32" />
+    <Sprite alias="Water.02.Edge.E.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="64" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.E.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="160" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.E.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="256" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.E.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="352" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.N.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="32" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.N.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="128" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.N.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="224" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.N.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="320" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="64" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="160" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="256" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="352" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="0" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="96" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="192" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="288" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.S.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="32" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.S.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="128" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.S.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="224" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.S.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="320" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="64" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="160" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="256" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="352" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="0" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="96" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="192" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="288" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.W.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="0" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.W.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="96" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.W.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="192" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Edge.W.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="288" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.02.Generic.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Water.02.Generic.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="128" y="64" width="32" height="32" />
+    <Sprite alias="Water.02.Generic.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="224" y="64" width="32" height="32" />
+    <Sprite alias="Water.02.Generic.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="320" y="64" width="32" height="32" />
+    <Sprite alias="Water.02.Joint.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="176" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="272" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="368" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="160" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="256" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="352" y="0" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="176" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="272" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="368" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="160" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="256" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Joint.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="352" y="16" width="16" height="16" />
+    <Sprite alias="Water.02.Patch.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water02.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Water.02.Patch.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water02.png" x="96" y="0" width="32" height="32" />
+    <Sprite alias="Water.02.Patch.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water02.png" x="192" y="0" width="32" height="32" />
+    <Sprite alias="Water.02.Patch.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water02.png" x="288" y="0" width="32" height="32" />
+    <Sprite alias="Water.03.Edge.E.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="64" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.E.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="160" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.E.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="256" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.E.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="352" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.N.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="32" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.N.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="128" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.N.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="224" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.N.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="320" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="64" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="160" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="256" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="352" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="0" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="96" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="192" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="288" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.S.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="32" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.S.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="128" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.S.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="224" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.S.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="320" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="64" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="160" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="256" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="352" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="0" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="96" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="192" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="288" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.W.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="0" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.W.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="96" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.W.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="192" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Edge.W.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="288" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.03.Generic.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Water.03.Generic.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="128" y="64" width="32" height="32" />
+    <Sprite alias="Water.03.Generic.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="224" y="64" width="32" height="32" />
+    <Sprite alias="Water.03.Generic.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="320" y="64" width="32" height="32" />
+    <Sprite alias="Water.03.Joint.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="176" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="272" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="368" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="160" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="256" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="352" y="0" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="176" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="272" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="368" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="160" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="256" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Joint.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="352" y="16" width="16" height="16" />
+    <Sprite alias="Water.03.Patch.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water03.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Water.03.Patch.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water03.png" x="96" y="0" width="32" height="32" />
+    <Sprite alias="Water.03.Patch.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water03.png" x="192" y="0" width="32" height="32" />
+    <Sprite alias="Water.03.Patch.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water03.png" x="288" y="0" width="32" height="32" />
+    <Sprite alias="Water.04.Edge.E.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="64" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.E.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="160" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.E.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="256" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.E.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="352" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.N.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="32" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.N.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="128" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.N.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="224" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.N.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="320" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="64" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="160" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="256" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="352" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="0" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="96" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="192" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="288" y="32" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.S.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="32" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.S.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="128" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.S.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="224" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.S.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="320" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="64" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="160" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="256" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="352" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="0" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="96" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="192" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="288" y="96" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.W.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="0" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.W.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="96" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.W.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="192" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Edge.W.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="288" y="64" width="32" height="32">
+        <Shape type="0" data="0" width="32" height="32" x="0" y="0" />
+    </Sprite>
+    <Sprite alias="Water.04.Generic.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="32" y="64" width="32" height="32" />
+    <Sprite alias="Water.04.Generic.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="128" y="64" width="32" height="32" />
+    <Sprite alias="Water.04.Generic.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="224" y="64" width="32" height="32" />
+    <Sprite alias="Water.04.Generic.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="320" y="64" width="32" height="32" />
+    <Sprite alias="Water.04.Joint.NE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="80" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.NE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="176" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.NE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="272" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.NE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="368" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.NW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="64" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.NW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="160" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.NW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="256" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.NW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="352" y="0" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SE.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="80" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SE.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="176" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SE.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="272" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SE.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="368" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SW.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="64" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SW.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="160" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SW.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="256" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Joint.SW.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="352" y="16" width="16" height="16" />
+    <Sprite alias="Water.04.Patch.01.Idle.01" asset="Assets/Graphics/World/Outdoor/Water04.png" x="0" y="0" width="32" height="32" />
+    <Sprite alias="Water.04.Patch.01.Idle.02" asset="Assets/Graphics/World/Outdoor/Water04.png" x="96" y="0" width="32" height="32" />
+    <Sprite alias="Water.04.Patch.01.Idle.03" asset="Assets/Graphics/World/Outdoor/Water04.png" x="192" y="0" width="32" height="32" />
+    <Sprite alias="Water.04.Patch.01.Idle.04" asset="Assets/Graphics/World/Outdoor/Water04.png" x="288" y="0" width="32" height="32" />
+</Manifest>
