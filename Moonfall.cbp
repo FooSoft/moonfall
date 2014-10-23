@@ -3,7 +3,6 @@
 	<FileVersion major="1" minor="6" />
 	<Project>
 		<Option title="Moonfall" />
-		<Option makefile_is_custom="1" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Option virtualFolders="Frontend/;Utility/;Utility/TinyXml/;Engine/;Game/;Game/World/;Game/Gui/;Game/Lua/;" />
@@ -12,22 +11,32 @@
 				<Option output="bin/LinuxDbgDev/Moonfall" prefix_auto="1" extension_auto="1" />
 				<Option type="0" />
 				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DDEVELOPER" />
+				</Compiler>
 				<MakeCommands>
 					<Build command="$make -j 2 -f $makefile CFG=LINUX_DBG_DEV" />
 					<CompileFile command="$make - j 2 -f $makefile $file CFG=LINUX_DBG_DEV" />
 					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_DBG_DEV" />
 					<DistClean command="$make -j 2 -f $makefile distclean" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -j 2 -f $makefile CFG=LINUX_DBG_DEV &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 			<Target title="LinuxRelDev">
 				<Option output="bin/LinuxRelDev/Moonfall" prefix_auto="1" extension_auto="1" />
 				<Option type="0" />
 				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DDEVELOPER" />
+				</Compiler>
 				<MakeCommands>
 					<Build command="$make -j 2  -f $makefile CFG=LINUX_REL_DEV" />
 					<CompileFile command="$make -j 2 -f $makefile $file CFG=LINUX_REL_DEV" />
 					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_REL_DEV" />
 					<DistClean command="$make -j 2 -f $makefile distclean" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -j 2  -f $makefile CFG=LINUX_REL_DEV &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 			<Target title="LinuxDbg">
@@ -39,6 +48,8 @@
 					<CompileFile command="$make -j 2 -f $makefile $file CFG=LINUX_DBG" />
 					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_DBG" />
 					<DistClean command="$make -j 2 -f $makefile distclean" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 			<Target title="LinuxRel">
@@ -50,6 +61,8 @@
 					<CompileFile command="$make -j 2 -f $makefile $file CFG=LINUX_REL" />
 					<Clean command="$make -j 2 -f $makefile clean CFG=LINUX_REL" />
 					<DistClean command="$make -j 2 -f $makefile distclean" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
 				</MakeCommands>
 			</Target>
 		</Build>
