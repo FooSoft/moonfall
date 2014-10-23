@@ -66,7 +66,9 @@
 		<Linker>
 			<Add option="`wx-config --libs`" />
 			<Add option="`sdl-config --libs`" />
+			<Add option="-lz" />
 			<Add option="-llua5.1" />
+			<Add option="-lSDL_ttf" />
 			<Add option="-lSDL_image" />
 		</Linker>
 		<Unit filename="Actor.cpp">
