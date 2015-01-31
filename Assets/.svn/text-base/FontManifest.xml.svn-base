@@ -1,4 +1,0 @@
-<Manifest>
-    <Font alias = "Dialogue.Text" asset = "Assets/Fonts/Purisa.ttf" size = "16" red = "255" green = "255" blue = "255" />
-    <Font alias = "Dialogue.Title" asset = "Assets/Fonts/Purisa.ttf" size = "16" red = "255" green = "255" blue = "0"/>
-</Manifest>

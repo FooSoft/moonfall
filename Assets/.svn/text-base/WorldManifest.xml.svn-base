@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Manifest>
-    <World alias = "Test.Test1" asset = "Assets/Worlds/Test1.world" />
-    <World alias = "Test.Test2" asset = "Assets/Worlds/Test2.world" />
-</Manifest>
