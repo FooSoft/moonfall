@@ -97,6 +97,6 @@ tools.
 
 ## Screenshots ##
 
-![](index/gameplay.png)
+![](http://foosoft.net/projects/moonfall/img/gameplay.png)
 
-![](index/sprite_editor.png)
+![](http://foosoft.net/projects/moonfall/img/sprite-editor.png)
