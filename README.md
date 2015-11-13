@@ -1,4 +1,4 @@
-# Moonfall
+# Moonfall #
 
 Moonfall is the name of a game engine that I spent several months developing back in 2008. It leveraged
 [SDL](https://www.libsdl.org/) for graphics, [Lua](http://www.lua.org/) for in-game scripting, and
@@ -97,6 +97,8 @@ tools.
 
 ## Screenshots ##
 
-![](http://foosoft.net/projects/moonfall/img/gameplay.png)
-
-![](http://foosoft.net/projects/moonfall/img/sprite-editor.png)
+[![Gameplay window](img/gameplay-thumb.png)](img/gameplay.png)
+[![Sprite editor](img/sprite-editor-thumb.png)](img/sprite-editor.png)
+[![Console window](img/console-thumb.png)](img/console.png)
+[![Asset editor](img/asset-editor-thumb.png)](img/asset-editor.png)
+[![Map editor](img/map-editor-thumb.png)](img/map-editor.png)
