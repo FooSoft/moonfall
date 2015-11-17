@@ -14,6 +14,8 @@ friendly bunch, but something about them does not seem right. Everyone is appear
 player, who must uncover the truth to survive. In short, this is (as I have described it to my friends), "Harvest Moon
 with murder."
 
+## Technology ##
+
 From a technical point of view, the game engine was an exercise in creating a completely data driven game. In
 retrospect, it was probably over-engineered, but in general it was flexible and I liked what I could do with it. At the
 core of the engine was the `Actor` class, the functionality of which could be expanded through add-on properties. The
@@ -91,9 +93,7 @@ end
 ```
 
 I eventually stopped work on Moonfall due to a lack of time, combined with the fact that I am not an artist and could
-not author the assets required to develop this into a complete game. The full [source
-code](https://github.com/FooSoft/moonfall) is available on GitHub; below are some screenshots of the game and built-in
-tools.
+not author the assets required to develop this into a complete game. 
 
 ## Screenshots ##
 
@@ -102,3 +102,7 @@ tools.
 [![Console window](img/console-thumb.png)](img/console.png)
 [![Asset editor](img/asset-editor-thumb.png)](img/asset-editor.png)
 [![Map editor](img/map-editor-thumb.png)](img/map-editor.png)
+
+## License ##
+
+GPL
