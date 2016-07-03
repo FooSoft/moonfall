@@ -93,15 +93,15 @@ end
 ```
 
 I eventually stopped work on Moonfall due to a lack of time, combined with the fact that I am not an artist and could
-not author the assets required to develop this into a complete game. 
+not author the assets required to develop this into a complete game.
 
 ## Screenshots ##
 
-[![Gameplay window](img/gameplay-thumb.png)](img/gameplay.png)
-[![Sprite editor](img/sprite-editor-thumb.png)](img/sprite-editor.png)
-[![Console window](img/console-thumb.png)](img/console.png)
-[![Asset editor](img/asset-editor-thumb.png)](img/asset-editor.png)
-[![Map editor](img/map-editor-thumb.png)](img/map-editor.png)
+[![Gameplay window](https://foosoft.net/projects/moonfall/img/gameplay-thumb.png)](https://foosoft.net/projects/moonfall/img/gameplay.png)
+[![Sprite editor](https://foosoft.net/projects/moonfall/img/sprite-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/sprite-editor.png)
+[![Console window](https://foosoft.net/projects/moonfall/img/console-thumb.png)](https://foosoft.net/projects/moonfall/img/console.png)
+[![Asset editor](https://foosoft.net/projects/moonfall/img/asset-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/asset-editor.png)
+[![Map editor](https://foosoft.net/projects/moonfall/img/map-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/map-editor.png)
 
 ## License ##
 
