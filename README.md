@@ -3,7 +3,7 @@
 Moonfall is the name of a game engine that I spent several months developing back in 2008. It leveraged
 [SDL](https://www.libsdl.org/) for graphics, [Lua](http://www.lua.org/) for in-game scripting, and
 [wxWidgets](https://www.wxwidgets.org/) for the built-in developer tools. The cross-platform engine was written using
-[Code::Blocks](http://www.codeblocks.org/) IDE, but Visual Studio project files are also available.
+the [Code::Blocks](http://www.codeblocks.org/) IDE, but Visual Studio project files are also available.
 
 The inspiration for the game came partially from the [Harvest
 Moon](http://en.wikipedia.org/wiki/Harvest_Moon_%28video_game%29) video game for the Super Nintendo and from the [When
@@ -12,7 +12,7 @@ Expansion](http://en.wikipedia.org/wiki/07th_Expansion). The protagonist is a ci
 farm from a distant relative decides to try his hand in agriculture. He finds the residents of the nearby small town a
 friendly bunch, but something about them does not seem right. Everyone is appears to be hiding something from the
 player, who must uncover the truth to survive. In short, this is (as I have described it to my friends), "Harvest Moon
-with murder."
+with Murder."
 
 ## Technology ##
 
