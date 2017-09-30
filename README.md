@@ -20,7 +20,7 @@ core of the engine was the `Actor` class, the functionality of which could be ex
 property definitions were specified in XML; for example, below is the definition for the playable character:
 
 
-```
+```xml
 <Actor alias = "Player.01" dynamic = "1" layer = "4" thumbnail = "Player.01.Idle.S.01">
     <Properties>
         <Animation />
@@ -35,7 +35,7 @@ Lua script with the actor. Scripts would get notifications about events such as 
 processing could take place:
 
 
-```
+```lua
 function OnActorUpdate(elapsed)
     if InputIsKeyTriggered(META_KEY_USE) then
         DoActorUse()
@@ -63,7 +63,7 @@ messaging system. This made it possible to build any game object imaginable by e
 simple scripting.
 
 
-```
+```lua
 function DoActorWalk(direction)
     if playerAction == ACTION_WALK and playerDirection == direction then
         return
