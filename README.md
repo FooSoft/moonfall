@@ -1,4 +1,4 @@
-# Moonfall #
+# Moonfall
 
 Moonfall is the name of a game engine that I spent several months developing back in 2008. It leveraged SDL for
 graphics, Lua for in-game scripting, and wxWidgets for the built-in developer tools. The cross-platform engine was
@@ -18,13 +18,12 @@ with Murder."
 [![Asset editor](https://foosoft.net/projects/moonfall/img/asset-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/asset-editor.png)
 [![Map editor](https://foosoft.net/projects/moonfall/img/map-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/map-editor.png)
 
-## Technology ##
+## Technology
 
 From a technical point of view, the game engine was an exercise in creating a completely data driven game. In
 retrospect, it was probably over-engineered, but in general it was flexible and I liked what I could do with it. At the
 core of the engine was the `Actor` class, the functionality of which could be expanded through add-on properties. The
 property definitions were specified in XML; for example, below is the definition for the playable character:
-
 
 ```xml
 <Actor alias = "Player.01" dynamic = "1" layer = "4" thumbnail = "Player.01.Idle.S.01">
@@ -39,7 +38,6 @@ property definitions were specified in XML; for example, below is the definition
 In addition to the self-explainable `Animation` and `Physics` properties, you can see a `Script` node which associates a
 Lua script with the actor. Scripts would get notifications about events such as `OnActorUpdate`, during which custom
 processing could take place:
-
 
 ```lua
 function OnActorUpdate(elapsed)
@@ -67,7 +65,6 @@ end
 Scripts can directly interact with properties on the parent `Actor` and can communicate with surrounding world via a
 messaging system. This made it possible to build any game object imaginable by editing a couple of XML files and some
 simple scripting.
-
 
 ```lua
 function DoActorWalk(direction)
