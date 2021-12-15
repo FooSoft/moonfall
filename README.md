@@ -1,3 +1,12 @@
+<!-- +++
+Area = "projects"
+GitHub = "moonfall"
+Layout = "page"
+Tags = ["cpp", "games", "lua", "moonfall", "sdl", "wxwidgets", "tinyxml", "gpl license"]
+Description = "Role playing game that combines farm simulation with survival horror."
+Collection = "ProjectsAbandoned"
++++ -->
+
 # Moonfall
 
 Moonfall is the name of a game engine that I spent several months developing back in 2008. It leveraged SDL for
@@ -12,11 +21,11 @@ friendly bunch, but something about them does not seem right. Everyone is appear
 player, who must uncover the truth to survive. In short, this is (as I have described it to my friends), "Harvest Moon
 with Murder."
 
-[![Gameplay window](https://foosoft.net/projects/moonfall/img/gameplay-thumb.png)](https://foosoft.net/projects/moonfall/img/gameplay.png)
-[![Sprite editor](https://foosoft.net/projects/moonfall/img/sprite-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/sprite-editor.png)
-[![Console window](https://foosoft.net/projects/moonfall/img/console-thumb.png)](https://foosoft.net/projects/moonfall/img/console.png)
-[![Asset editor](https://foosoft.net/projects/moonfall/img/asset-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/asset-editor.png)
-[![Map editor](https://foosoft.net/projects/moonfall/img/map-editor-thumb.png)](https://foosoft.net/projects/moonfall/img/map-editor.png)
+[![Gameplay window](img/gameplay-thumb.png)](img/gameplay.png)
+[![Sprite editor](img/sprite-editor-thumb.png)](img/sprite-editor.png)
+[![Console window](img/console-thumb.png)](img/console.png)
+[![Asset editor](img/asset-editor-thumb.png)](img/asset-editor.png)
+[![Map editor](img/map-editor-thumb.png)](img/map-editor.png)
 
 ## Technology
 
