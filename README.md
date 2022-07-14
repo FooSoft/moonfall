@@ -1,12 +1,3 @@
-<!-- +++
-Area = "projects"
-GitHub = "moonfall"
-Layout = "page"
-Tags = ["cpp", "games", "lua", "moonfall", "sdl", "wxwidgets", "tinyxml", "gpl license"]
-Description = "Role playing game that combines farm simulation with survival horror."
-Collection = "ProjectsAbandoned"
-+++ -->
-
 # Moonfall
 
 Moonfall is the name of a game engine that I spent several months developing back in 2008. It leveraged SDL for
